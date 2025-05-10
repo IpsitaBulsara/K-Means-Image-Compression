@@ -14,3 +14,6 @@ This project demonstrates how to compress images using the K-Means clustering al
 4. The compressed image is reconstructed using the cluster centroids.
 
 
+## Streamlit Application 
+https://k-means-image-compression.streamlit.app/
+
