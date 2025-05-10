@@ -43,10 +43,10 @@ if uploaded_file:
     col1, col2 = st.columns(2)
     with col1:
         st.subheader("🖼️ Original Image")
-        st.image(image, use_column_width=True)
+        st.image(image, use_container_width=True)
     with col2:
         st.subheader("🖼️ Compressed Image")
-        st.image((compressed_pixels * 255).astype(np.uint8), use_column_width=True)
+        st.image((compressed_pixels * 255).astype(np.uint8), use_container_width=True)
 
     st.subheader("📊 Compression Stats")
     st.markdown(f"- **Original Size:** {original_kb:.2f} KB")
